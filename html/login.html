@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+	</head>
+	<body>
+		<div id="head"></div>
+		<div id="banner">
+			<a href="##">
+				<img src="../img/login/banner1.jpg"/>
+			</a>
+		</div>
+		<!--登录-->
+		<div id="login">
+			<div class="right_login">
+				<img src="../img/login/login_right.png" />
+			</div>
+			<div class="left_login">
+				<div class="loginbox">
+					<h2>用户登录</h2>
+					<form class="loginform">
+						<div class="loginInfo">
+							<span class="label">用户名： </span><input type="text" class="unsername" placeholder="邮箱地址/手机号"/>
+							<span class="label">密&nbsp;码：</span><input type="password" class="pwd"/>
+							<div class="code">
+								<span class="label codeLabel">验证码：</span> <input type="text" class="checkcode"/><span class="radomcode"></span>
+							</div>
+							<div ></div>
+							<a href="##" class="btn">立即登录</a>
+							<input type="checkbox" class="checkbox"/><span class="checkval">保存登录信息</span>
+							<p>
+								<a href="regist.html">注册</a>
+								<span>|</span>
+								<a href="##">忘记密码？</a>
+							</p>
+						</div>
+					</form>
+				</div>
+				<div class="other_login">
+					<span>其他登录方式：</span>
+					<a href="##" class="qq"></a>
+					<a href="##" class="xinlang"></a>
+					<a href="##" class="xunlei"></a>
+					<a href="##" class="zhifubao"></a>
+				</div>
+			</div>
+		</div>
+		<div id="foot"></div>
+		
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/common/common.js" ></script>
+		<script type="text/javascript" src="../js/common/header.js" ></script>
+		<script>
+		//导入头部和尾部
+			loadHtml("common/header.html","head");
+			loadHtml("common/footer.html","foot");
+		</script>
+		<script type="text/javascript" src="../js/login.js" ></script>
+	</body>
+</html>

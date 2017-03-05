@@ -1,0 +1,192 @@
+#header{
+	width:100%;
+	height: 200px;
+}
+#topHeader{
+	width:100%;
+	height: 30px;
+	background: #f5f5f5;
+	border-bottom: 1px solid #999;
+}
+#tHeader{
+	width:1200px;
+	margin: 0 auto;
+	clear: both;
+}
+#tHeader .tHeader_first{float: left;}
+#tHeader .tHeader_first a{
+	display: inline-block;
+	height:30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+#tHeader .first{color: red;}
+#tHeader a:hover{color: red;}
+#tHeader .tHeader_nav{
+	float: right;
+}
+#tHeader .tHeader_nav li{
+	float: left;
+	height:30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin-left:10px;
+}
+#tHeader .tHeader_nav s{color: #FF0000;font-weight: bold;}
+#tHeader .webdhbox{width:1200px;margin: 0px auto;position: relative;z-index: 300;display: none;}
+#tHeader .webdh{
+	width:100%;
+	margin: 0px auto;
+	border: 1px solid rgb(229, 229, 229);
+	position: absolute;
+	top:30px;
+	padding:7px;
+	background: #FFFFFF;
+}
+#tHeader .webdh ul li{line-height: 24px;width:50%;float: left;}
+#tHeader .webdh a:hover{text-decoration: underline;}
+#tHeader .webdh .hot{width:15%;height:137px;float:left;border-right:1px solid #e5e5e5 ;margin-left:25px ;}
+#tHeader .webdh .hot h2{font-size:16px;color:#f56b03;line-height: 35px;font-weight: bold;}
+#tHeader .webdh .hot a:hover{color: #f56b03;}
+#tHeader .webdh .woman{width:25%;height:137px;float:left;border-right:1px solid #e5e5e5 ;margin-left:25px ;}
+#tHeader .webdh .woman h2{font-size:16px;color:#ec0736;line-height: 35px;font-weight: bold;}
+#tHeader .webdh .woman a:hover{color: #ec0736;}
+#tHeader .webdh .men{width:15%;height:137px;float:left;border-right:1px solid #e5e5e5 ;margin-left:25px ;}
+#tHeader .webdh .men h2{font-size:16px;color:#2263d4;line-height: 35px;font-weight: bold;}
+#tHeader .webdh .men li{line-height: 24px;width:100%;float: left;}
+#tHeader .webdh .men a:hover{color: #2263d4;}
+#tHeader .webdh .child{width:16%;height:137px;float:left;border-right:1px solid #e5e5e5 ;margin-left:25px ;}
+#tHeader .webdh .child h2{font-size:16px;color:#5e8e3d;line-height: 35px;font-weight: bold;}
+#tHeader .webdh .child li{line-height: 24px;width:100%;float: left;}
+#tHeader .webdh .child a:hover{color: #5e8e3d;}
+#tHeader .webdh .help{width:15%;height:137px;float:left;margin-left:25px ;}
+#tHeader .webdh .help h2{font-size:16px;color:#686868;line-height: 35px;font-weight: bold;}
+#tHeader .webdh .help a:hover{color: #686868;}
+
+#middleHeader{
+	width: 1024px;
+	height:135px;
+	margin:0 auto;
+}
+#middleHeader .mLeft,#middleHeader .mMiddle,#middleHeader .mRight{float: left;}
+#middleHeader .mLeft{width:355px;height:97px;}
+#middleHeader .mMiddle{width:488px;margin-left: 10px;margin-top: 50px;}
+#middleHeader .txt{width:403px;height: 33px;border: 2px solid #FF0000;}
+#middleHeader .btn{
+	width:48px;
+	height:33px;
+	background: #FF0000;
+	border: 2px solid #FF0000;
+	margin-left: -3px;
+	color:#fff;
+	text-align: center;
+}
+#tipList li{width:403px;height: 33px;line-height: 33px;background:#FFFFFF;border: 1px solid #FF0000;opacity: 0.9;}
+#middleHeader .mMiddle li{
+	float: left;
+	margin-right: 10px;
+}
+#middleHeader .mMiddle a:hover{color: #f00;}
+#middleHeader .mRight{width: 100px;margin-left:50px;margin-top: 25px;}
+#middleHeader .mRight img {width:100px;height:100px;}
+#middleHeader .mRight p {color:red}
+
+#bottomHeader{
+	width:1200px;
+	height:40px;
+	margin:0 auto;
+	position: relative;
+}
+#bottomHeader .bLeft{float: left;margin-left: 179px;}
+#bottomHeader .bLeft li{
+	float:left;
+	margin-left:30px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+#bottomHeader  a:hover{color:#f00;}
+#bottomHeader .bRight{float: right;}
+#bottomHeader .firstnav>li{
+	float:left;
+	width:97px;
+	height: 40px;
+	margin-left:30px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
+}
+#bottomHeader .firstnav ul{
+	position: relative;
+	z-index: 10;
+	width:97px;
+	height:68px;
+	background: white;
+	border:1px solid #999999;
+	border-top:1px solid #FF0000;
+	text-align: center;
+	display: none;
+}
+#bottomHeader .firstnav ul li{
+	height:33px;
+	border-bottom:1px solid #999999 ;
+}
+#bottomHeader .pullD{width:190px;position: absolute;top:15px;left: 0;z-index:10;}
+#bottomHeader .pullD h2{width:100%;height:33px;background: #FF0000;color:#FFFFFF;line-height: 33px;text-align: center;}
+#bottomHeader .pullDList{width:100%;height:453px;background: #e3e3e3;overflow: hidden;}
+#bottomHeader .pullDList li{padding:12px 13px;position: relative;border-bottom: 1px dotted #CCCCCC;}
+#bottomHeader .pullDList .pullDH3_t{font-size: 14px;height:24px;font-weight: bolder;color:#333333;}
+#bottomHeader .pullDList .pullDH3_t i{float:left;display: inline-block;width:18px;height:18px;margin:1px 5px 0 0;}
+#bottomHeader .pullDList .pullDH3_t .img2{display: none;}
+#bottomHeader .pullDList li a{font-size: 12px;color: #555555;margin: 0 1px;}
+#bottomHeader .pullDList li a:hover{text-decoration: underline;}
+#bottomHeader .pullDList li.menulihover{background: #333333;color:#FFFFFF;border-bottom: 1px solid #e3e3e3;}
+#bottomHeader .pullDList li span{
+	width:6px;
+	height:9px;
+	display: inline-block;
+	position: absolute;
+	top:17px;
+	right: 8px;
+	background: url(../../img/index/leftjt.png) no-repeat;
+}
+#bottomHeader .pullDCon{
+	width:410px;
+	height:454px;
+	position: absolute;
+	top:34px;
+	left: 190px;
+	overflow: hidden;
+	display: none;
+}
+#bottomHeader .pullDCon .pullDConin{
+	/*background: #FFFFFF;*/
+	width:192px;
+	height:455px;
+	position: absolute;
+	left: -10px;
+	display: none;
+}
+#bottomHeader .pullDCon .itemtc_h{width:300px;height:455px;padding:8px 0;background: #FFFFFF;}
+#bottomHeader .pullDCon .itemtc_h .img{width:70px;margin-left:23px;float: left;}
+#bottomHeader .pullDCon .itemtc_h .img a{display: block;margin:20px;}
+#bottomHeader .pullDCon  .itemtc_h02{width:380px;margin:0 auto;}
+#bottomHeader .pullDCon .itContent {height: auto;width: 380px;clear: both;overflow: hidden;margin-left: 20px;}
+#bottomHeader .pullDCon .itContent h3 {font-size: 14px;color: #333;font-weight: normal;}
+#bottomHeader .pullDCon .itContent div{width:287px}
+#bottomHeader .pullDCon .itContent a {
+    color: #888;
+    font-size: 12px;
+    display: inline-block;
+    float: left;
+    white-space: nowrap;
+    background: url(../img/index/pullD/jgg.jpg) no-repeat right 3px;
+    padding: 0 8px;
+    margin-top: 3px;
+}
+#bottomHeader .pullDCon .menu_line {
+    width: 380px;
+    border-bottom: 1px dotted #ddd;
+    margin: 6px 0 4px 0;
+}

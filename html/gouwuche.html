@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车页面</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/gouwuche.css" />
+	</head>
+	<body>
+		<div class="cart_header">
+		    <a href="##" class="cart_logo fl"></a>
+		    <div class="cart_step step1 fr"></div>
+		</div>
+		<div class="wrap">
+			<div class="warm_tip">
+				<em>温馨提示：</em>现在&nbsp;
+				<a  style="color:#fe0032;cursor:pointer;">登录</a>&nbsp;,把心仪的商品保存在”购物车“
+			</div>
+			<div class="shopping_nr">
+		        <div class="shopping_nr_title">
+		            <div class="shop_qx" style="width: 117px;"></div>
+		            <div class="shop_qx" style="width: 500px;">商品名称</div>
+		            <div class="shop_qx" style="width: 117px;">售价</div>
+		            <div class="shop_qx" style="width: 143px;">数量</div>
+		            <div class="shop_qx" style="width: 157px;">小计</div>
+		            <div class="shop_qx" style="width: 162px;">操作</div>
+		        </div>
+		        <div class="shopping_car_bottom bottom_1">
+		            <div class="shopping_car_arrow">
+		                <div class="car_arrow"></div>
+		                <ul class="car_arrow_txt">
+		                   <li class="car_arrow_warn">您的购物车内没有商品，请挑选心仪的商品吧！</li>
+		                   <li><a href="http://www.handu.com" target="_blank" class="go_shopping">去挑选喜欢的商品</a></li>
+		                </ul>
+		            </div>
+		        </div>
+	    		<div class="shopping_nr_top">
+	    			<ul>
+	    				
+	    				<!--<li id="goods">
+	    					<div class="checkbox">
+		    					<input type="checkbox" checked="checked" />
+		    				</div>
+						    <div class="cbg shop_product">
+						        <div class="shop_product_pic">
+						            <a href="##" target="_blank" title="哲初女装2016冬装新呢大衣单排扣中长款立领毛呢外套YH6051">
+						                <img src="../img/goodsDetail/image1.jpg" width="112" border="0" alt="哲初女装2016冬装新呢大衣单排扣中长款立领毛呢外套YH6051">
+						            </a>
+						        </div>
+						        <div class="shop_product_name">
+						            <a href="##" title="哲初女装2016冬装新呢大衣单排扣中长款立领毛呢外套YH6051" target="_blank"> 哲初女装2016冬装新呢大衣单排扣中长款立领毛呢外套YH6051 </a>
+						        </div>
+						        <div class="shop_product_size">
+						            <span>颜色:浅蓝色 &nbsp;&nbsp;&nbsp;尺码:S</span>
+						        </div>
+						    </div>
+						    <div class="cbg shop_product_money"> 
+						    	<div class="cprice" style="line-height:20px;">
+						    		<del>￥2187.00</del><br><span>￥399 </span>
+						    	</div>
+						    </div>
+						    <div class="cbg shop_product_number">
+						        <span class="amount-widget" id="J_AmountWidget">
+						            <span class="increase">+</span>
+						            <span class="decrease">-</span>
+						             <input type="text"  name="goods_number" class="text" old="1" value="1" maxlength="3" title="请输入购买量">
+						        </span>
+						    </div>
+						    <div class="cbg shop_product_money00">￥399.00</div>
+						    <div class="cbg shop_product_close">
+						        <div class="middle">
+						            <a href="##"> 移入收藏夹</a><br>
+						            <a href="##"> 删除</a>
+						        </div>
+						    </div>
+						    <div class="cbg shop_product_tip">
+						        <div class="middle"></div>
+						    </div>
+						</li>-->
+	    			</ul>
+	    		</div>
+	    		<div class="shopping_car_bottom">
+		            <div class="shopping_car_bottom_right">
+		 		          <div class="accumulated fr">
+				            <table>
+					             <tbody>
+					             	<tr>
+					                	<td><span id="goods_allnum" class="p_color">1</span>件商品</td>
+					                	<td class="td_len1">总计：</td>
+					              	    <td id="total_Price" class="td_len"><span class="allMoney"></span></td>
+					              </tr>
+					              <tr>	
+					                    <td colspan="2">满立减：</td>
+					                	<td id="total_fanxian">- ￥50.00</td>
+					              </tr>
+					               <tr>	
+					                    <td colspan="2">税费：</td>
+					                	<td id="total_fanxian">- ￥0.00 </td>
+					              </tr>
+					            </tbody>
+				            </table>
+				          </div>
+				          
+		            </div>
+       		 </div>
+				<div class="shopping_car_bottom shopping_car_bottom_bg">
+		            <div class="shopping_car_bottom_left hg2">
+		            	<a href="##">
+		            		<input type="checkbox" class="select-all"/>全选
+		            	</a>
+		                <a id="batchDelete" href="javascript:void(0);">
+		                                                              批量删除
+		                </a>
+		                <a id="batchCollect" href="javascript:void(0);">
+		                                                            批量移入收藏夹
+		                </a>
+		                <a href="##" class="clear1">清空购物车</a>
+		            </div>
+		            <div class="shopping_car_bottom_right">
+		                <span class="shopping_car_bottom_rightMoney">
+		                    <span style="line-height:50px;">
+		                                                                           购物金额总计：
+		                        <span style="min-width:75px;display:inline-block;text-align:right;">
+		                          <span style="color:#bf0000; font-size:18px;">￥</span>
+		                          <span id="totalAmount">349</span>
+		                        </span>
+		                    </span>
+		                </span>
+		            </div>
+	    		</div>
+	    		
+			</div>
+		
+			<a href="##">
+				<div class="cart_btn btn9 fl" style="margin-right:10px;margin-top:12px;"></div>
+			</a>
+			<a href="##" id="btn_goto_checkout">
+				<div class="cart_btn btn1 fr jiesuan" style="margin-top:12px;position:relative;" >
+	      			
+    			</div>
+			</a>
+		</div>
+		<div class="div_deleted">
+		  <h1 id="show_del_msg"></h1>
+			<ul class="deleted"></ul>
+		</div>
+		
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/gouwuche.js" ></script>
+	</body>
+</html>
+
+
+

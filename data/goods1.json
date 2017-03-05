@@ -1,0 +1,28 @@
+{
+	"goods00":{
+		"id":0,
+		"href":"goodsDetail.html",
+		"src":"../img/goodslist/goodlist0.jpg",
+		"color":"白色",
+		"size":{
+			"size0":"S",
+			"size1":"M",
+			"size2":"L"
+		},
+		"price":"203",
+		"oldPrice":"￥642.00"
+	},
+	"goods01":{
+		"id":1,
+		"href":"goodsDetail.html",
+		"src":"../img/goodslist/goodlist1.jpg",
+		"color":"灰色",
+		"size":{
+			"size0":"S",
+			"size1":"M",
+			"size2":"L"
+		},
+		"price":"203",
+		"oldPrice":"￥642.00"
+	}
+}

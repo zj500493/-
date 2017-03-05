@@ -1,0 +1,82 @@
+#bottomHeader .pullD{position: absolute;top:30px;}
+#bottomHeader .pullD .pullDList{display: none;}
+#banner {width:100%;margin:0 auto;margin-top: 50px;}
+#banner img{display: block;width:1000px;height:60px;margin: 0 auto;}
+#login {width:1100px;height:470px;margin: 0 auto;}
+#login .right_login{width:420px;height:315px;padding-top:25px;float:left}
+#login .left_login{width:608px;height:470px;float: right;border-left: 1px dashed #E3E3E3;}
+#login .loginbox {
+	width:300px;
+	height:329px;
+	margin:25px 0 0 80px;
+	padding: 20px 40px;
+	border: 1px solid #EeEeEe;
+	box-shadow: 2px 1px 5px rgba(0,0,0,0.4);
+}
+#login .loginbox h2{
+	width:300px;
+	height:30px;
+	border-bottom: 1px solid #EEEEEE;
+	color:#666666;
+}
+#login .loginbox .loginform{width:300px;height:258px;margin-top: 40px;}
+#login .code{margin-top:10px ;height:33px;}
+#login .label{display:inline-block;width:75px;line-height:33px;font-size: 14px;text-align: right;color: #393939;}
+#login .codeLabel{float: left;}
+#login .unsername,#login .pwd{
+	width: 207px;
+    height: 33px;
+    line-height: 33px;
+    color: #BBBBBB;
+    font-family: 'Microsoft YaHei';
+    margin-top:10px ;
+}
+#login .checkcode {
+	width: 120px;
+	height: 30px;
+	float: left;
+	
+}
+#login .radomcode {
+	width: 80px;
+	height: 31px;
+	display: block;
+	float: left;
+	border:1px solid #E3E3E3;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background: greenyellow;
+	color: gold;
+}
+#login .btn{
+	display: inline-block;
+	width:120px;
+	height:35px;
+	margin:10px 0 0 75px ;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+	background: #FF0000;
+	border: none;
+}
+#login .checkval{display: inline-block;width:80px;height:20px;}
+#login .loginform p{margin:10px 0 0 80px ;}
+#login .loginform p a{color: #565656;margin-right: 5px;}
+#login .loginform p span{color: #565656;margin-right: 5px;}
+#login .other_login{width:528px;height:29px;margin:30px 0 15px 80px;}
+#login .other_login span{display:block;height:29px;line-height: 29px;float: left;}
+#login .other_login a{display:inline-block;width:97px;height:29px;margin-right: 10px;float: left;}
+#login .other_login .qq{background: url(../img/login/NEWS_login.png) no-repeat 0 -528px;}
+#login .other_login .xinlang{background: url(../img/login/NEWS_login.png) no-repeat -112px -528px;}
+#login .other_login .xunlei{background: url(../img/login/NEWS_login.png) no-repeat -223px -528px;}
+#login .other_login .zhifubao{background: url(../img/login/NEWS_login.png) no-repeat -333px -528px;}
+#login .panduan{
+	width:200px;
+	height:20px;
+	color: #FF0000;
+	margin:5px 0 0 40px;
+	line-height: 20px;
+	text-align: center;
+}
